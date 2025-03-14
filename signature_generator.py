@@ -16,7 +16,6 @@ class EmailSignatureGenerator:
             raise ValueError("Non existing position!")
     
     def generate_email_signature(self, first_name, last_name, position, phone_number):
-        self.check_position(position)
         translations = self.position_lookup[position]
         
         uni_translations = {"de": "Semmelweis Universität", "en": "Semmelweis University", "hu": "Semmelweis Egyetem"}
