@@ -1,0 +1,3 @@
+# Exclude Visual Studio Code specific files and folders
+.vscode/
+*.code-workspace
